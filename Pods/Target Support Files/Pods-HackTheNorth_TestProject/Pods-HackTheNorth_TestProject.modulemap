@@ -1,0 +1,6 @@
+framework module Pods_HackTheNorth_TestProject {
+  umbrella header "Pods-HackTheNorth_TestProject-umbrella.h"
+
+  export *
+  module * { export * }
+}

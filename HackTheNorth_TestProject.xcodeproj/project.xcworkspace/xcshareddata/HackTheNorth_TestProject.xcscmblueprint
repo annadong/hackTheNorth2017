@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "89950DB7CF05B3E555C7075E3F4FF04165760EB2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "89950DB7CF05B3E555C7075E3F4FF04165760EB2" : 0,
+    "3AE8ED2E684071AF4FB151FA51BF266B82FF45BD" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "772786A1-5624-4053-94FD-1F50BF3E1225",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "89950DB7CF05B3E555C7075E3F4FF04165760EB2" : "HackTheNorth_TestProject\/",
+    "3AE8ED2E684071AF4FB151FA51BF266B82FF45BD" : "HackTheNorth_TestProject\/SQLite.swift\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HackTheNorth_TestProject",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "HackTheNorth_TestProject.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/stephencelis\/SQLite.swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3AE8ED2E684071AF4FB151FA51BF266B82FF45BD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:annadong\/hackTheNorth2017.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "89950DB7CF05B3E555C7075E3F4FF04165760EB2"
+    }
+  ]
+}
