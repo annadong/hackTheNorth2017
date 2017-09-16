@@ -23,6 +23,7 @@
 		FA41EA3E1F6DA6B1002FCB08 /* e1e42e09f780854a20dba474edb03896.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA41EA3D1F6DA6B1002FCB08 /* e1e42e09f780854a20dba474edb03896.jpg */; };
 		FA41EA421F6DA7ED002FCB08 /* magnifying_glass.png in Resources */ = {isa = PBXBuildFile; fileRef = FA41EA411F6DA7ED002FCB08 /* magnifying_glass.png */; };
 		FA41EA441F6DA820002FCB08 /* pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = FA41EA431F6DA820002FCB08 /* pencil.png */; };
+		FA41EA461F6DBC16002FCB08 /* noun_1237017_cc.png in Resources */ = {isa = PBXBuildFile; fileRef = FA41EA451F6DBC16002FCB08 /* noun_1237017_cc.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		FA41EA3D1F6DA6B1002FCB08 /* e1e42e09f780854a20dba474edb03896.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = e1e42e09f780854a20dba474edb03896.jpg; path = ../../Desktop/e1e42e09f780854a20dba474edb03896.jpg; sourceTree = "<group>"; };
 		FA41EA411F6DA7ED002FCB08 /* magnifying_glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = magnifying_glass.png; path = ../Desktop/magnifying_glass.png; sourceTree = "<group>"; };
 		FA41EA431F6DA820002FCB08 /* pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pencil.png; path = ../../Desktop/pencil.png; sourceTree = "<group>"; };
+		FA41EA451F6DBC16002FCB08 /* noun_1237017_cc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = noun_1237017_cc.png; path = ../Downloads/noun_1237017_cc.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		ACD7106B1F6CE491005179EB = {
 			isa = PBXGroup;
 			children = (
+				FA41EA451F6DBC16002FCB08 /* noun_1237017_cc.png */,
 				FA41EA411F6DA7ED002FCB08 /* magnifying_glass.png */,
 				ACD710761F6CE491005179EB /* HackTheNorth_TestProject */,
 				ACD710751F6CE491005179EB /* Products */,
@@ -163,6 +166,7 @@
 				FA41EA3C1F6DA634002FCB08 /* download.jpeg in Resources */,
 				ACD7107D1F6CE491005179EB /* Main.storyboard in Resources */,
 				FA41EA3A1F6DA595002FCB08 /* 34202.png in Resources */,
+				FA41EA461F6DBC16002FCB08 /* noun_1237017_cc.png in Resources */,
 				FA41EA421F6DA7ED002FCB08 /* magnifying_glass.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
