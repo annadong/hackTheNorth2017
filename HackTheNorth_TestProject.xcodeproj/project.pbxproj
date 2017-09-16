@@ -13,6 +13,16 @@
 		ACD7107F1F6CE491005179EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD7107E1F6CE491005179EB /* Assets.xcassets */; };
 		ACD710821F6CE491005179EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACD710801F6CE491005179EB /* LaunchScreen.storyboard */; };
 		ACD7108C1F6D7BFA005179EB /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD7108B1F6D7BFA005179EB /* Contact.swift */; };
+		FA41EA301F6D83A3002FCB08 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA41EA2F1F6D83A3002FCB08 /* MainViewController.swift */; };
+		FA41EA321F6D9D96002FCB08 /* SymptomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA41EA311F6D9D96002FCB08 /* SymptomsViewController.swift */; };
+		FA41EA341F6D9E69002FCB08 /* FoodTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA41EA331F6D9E69002FCB08 /* FoodTrackerViewController.swift */; };
+		FA41EA361F6D9EC3002FCB08 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA41EA351F6D9EC3002FCB08 /* DataViewController.swift */; };
+		FA41EA381F6D9F0D002FCB08 /* PrescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA41EA371F6D9F0D002FCB08 /* PrescriptionViewController.swift */; };
+		FA41EA3A1F6DA595002FCB08 /* 34202.png in Resources */ = {isa = PBXBuildFile; fileRef = FA41EA391F6DA595002FCB08 /* 34202.png */; };
+		FA41EA3C1F6DA634002FCB08 /* download.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FA41EA3B1F6DA634002FCB08 /* download.jpeg */; };
+		FA41EA3E1F6DA6B1002FCB08 /* e1e42e09f780854a20dba474edb03896.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA41EA3D1F6DA6B1002FCB08 /* e1e42e09f780854a20dba474edb03896.jpg */; };
+		FA41EA421F6DA7ED002FCB08 /* magnifying_glass.png in Resources */ = {isa = PBXBuildFile; fileRef = FA41EA411F6DA7ED002FCB08 /* magnifying_glass.png */; };
+		FA41EA441F6DA820002FCB08 /* pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = FA41EA431F6DA820002FCB08 /* pencil.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,16 @@
 		ACD710811F6CE491005179EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACD710831F6CE491005179EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACD7108B1F6D7BFA005179EB /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		FA41EA2F1F6D83A3002FCB08 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		FA41EA311F6D9D96002FCB08 /* SymptomsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SymptomsViewController.swift; sourceTree = "<group>"; };
+		FA41EA331F6D9E69002FCB08 /* FoodTrackerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTrackerViewController.swift; sourceTree = "<group>"; };
+		FA41EA351F6D9EC3002FCB08 /* DataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		FA41EA371F6D9F0D002FCB08 /* PrescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrescriptionViewController.swift; sourceTree = "<group>"; };
+		FA41EA391F6DA595002FCB08 /* 34202.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 34202.png; path = ../../Desktop/34202.png; sourceTree = "<group>"; };
+		FA41EA3B1F6DA634002FCB08 /* download.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = download.jpeg; path = ../../Desktop/download.jpeg; sourceTree = "<group>"; };
+		FA41EA3D1F6DA6B1002FCB08 /* e1e42e09f780854a20dba474edb03896.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = e1e42e09f780854a20dba474edb03896.jpg; path = ../../Desktop/e1e42e09f780854a20dba474edb03896.jpg; sourceTree = "<group>"; };
+		FA41EA411F6DA7ED002FCB08 /* magnifying_glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = magnifying_glass.png; path = ../Desktop/magnifying_glass.png; sourceTree = "<group>"; };
+		FA41EA431F6DA820002FCB08 /* pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pencil.png; path = ../../Desktop/pencil.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +60,7 @@
 		ACD7106B1F6CE491005179EB = {
 			isa = PBXGroup;
 			children = (
+				FA41EA411F6DA7ED002FCB08 /* magnifying_glass.png */,
 				ACD710761F6CE491005179EB /* HackTheNorth_TestProject */,
 				ACD710751F6CE491005179EB /* Products */,
 			);
@@ -63,6 +84,15 @@
 				ACD710801F6CE491005179EB /* LaunchScreen.storyboard */,
 				ACD710831F6CE491005179EB /* Info.plist */,
 				ACD7108B1F6D7BFA005179EB /* Contact.swift */,
+				FA41EA2F1F6D83A3002FCB08 /* MainViewController.swift */,
+				FA41EA311F6D9D96002FCB08 /* SymptomsViewController.swift */,
+				FA41EA331F6D9E69002FCB08 /* FoodTrackerViewController.swift */,
+				FA41EA351F6D9EC3002FCB08 /* DataViewController.swift */,
+				FA41EA371F6D9F0D002FCB08 /* PrescriptionViewController.swift */,
+				FA41EA3D1F6DA6B1002FCB08 /* e1e42e09f780854a20dba474edb03896.jpg */,
+				FA41EA431F6DA820002FCB08 /* pencil.png */,
+				FA41EA3B1F6DA634002FCB08 /* download.jpeg */,
+				FA41EA391F6DA595002FCB08 /* 34202.png */,
 			);
 			path = HackTheNorth_TestProject;
 			sourceTree = "<group>";
@@ -126,9 +156,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA41EA441F6DA820002FCB08 /* pencil.png in Resources */,
 				ACD710821F6CE491005179EB /* LaunchScreen.storyboard in Resources */,
 				ACD7107F1F6CE491005179EB /* Assets.xcassets in Resources */,
+				FA41EA3E1F6DA6B1002FCB08 /* e1e42e09f780854a20dba474edb03896.jpg in Resources */,
+				FA41EA3C1F6DA634002FCB08 /* download.jpeg in Resources */,
 				ACD7107D1F6CE491005179EB /* Main.storyboard in Resources */,
+				FA41EA3A1F6DA595002FCB08 /* 34202.png in Resources */,
+				FA41EA421F6DA7ED002FCB08 /* magnifying_glass.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,9 +174,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA41EA381F6D9F0D002FCB08 /* PrescriptionViewController.swift in Sources */,
 				ACD7108C1F6D7BFA005179EB /* Contact.swift in Sources */,
+				FA41EA361F6D9EC3002FCB08 /* DataViewController.swift in Sources */,
 				ACD7107A1F6CE491005179EB /* ViewController.swift in Sources */,
 				ACD710781F6CE491005179EB /* AppDelegate.swift in Sources */,
+				FA41EA321F6D9D96002FCB08 /* SymptomsViewController.swift in Sources */,
+				FA41EA301F6D83A3002FCB08 /* MainViewController.swift in Sources */,
+				FA41EA341F6D9E69002FCB08 /* FoodTrackerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +337,7 @@
 				ACD710881F6CE491005179EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
