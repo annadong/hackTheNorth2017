@@ -110,7 +110,6 @@
         <!--Main View Controller-->
         <scene sceneID="PT6-Tw-XWH">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Kv9-E7-EWQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="DqK-yd-fcu" customClass="MainViewController" customModule="HackTheNorth_TestProject" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="uni-DZ-tUa"/>
@@ -187,6 +186,7 @@
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kv9-E7-EWQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="257" y="1116"/>
         </scene>
