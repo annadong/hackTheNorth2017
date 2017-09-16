@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ACCBA2FD1F6DC2E7007F3E63 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCBA2FC1F6DC2E7007F3E63 /* CreateAccountViewController.swift */; };
 		ACD710781F6CE491005179EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD710771F6CE491005179EB /* AppDelegate.swift */; };
 		ACD7107A1F6CE491005179EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD710791F6CE491005179EB /* ViewController.swift */; };
 		ACD7107D1F6CE491005179EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACD7107B1F6CE491005179EB /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ACCBA2FC1F6DC2E7007F3E63 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		ACD710741F6CE491005179EB /* HackTheNorth_TestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackTheNorth_TestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACD710771F6CE491005179EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACD710791F6CE491005179EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				FA41EA3D1F6DA6B1002FCB08 /* e1e42e09f780854a20dba474edb03896.jpg */,
 				FA41EA3B1F6DA634002FCB08 /* download.jpeg */,
 				FA41EA391F6DA595002FCB08 /* 34202.png */,
+				ACCBA2FC1F6DC2E7007F3E63 /* CreateAccountViewController.swift */,
 			);
 			path = HackTheNorth_TestProject;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				ACD7107A1F6CE491005179EB /* ViewController.swift in Sources */,
 				ACD710781F6CE491005179EB /* AppDelegate.swift in Sources */,
 				FA41EA321F6D9D96002FCB08 /* SymptomsViewController.swift in Sources */,
+				ACCBA2FD1F6DC2E7007F3E63 /* CreateAccountViewController.swift in Sources */,
 				FA41EA301F6D83A3002FCB08 /* MainViewController.swift in Sources */,
 				FA41EA341F6D9E69002FCB08 /* FoodTrackerViewController.swift in Sources */,
 			);
