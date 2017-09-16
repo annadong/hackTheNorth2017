@@ -23,11 +23,6 @@ class PrescriptionViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func Search(sender: AnyObject) {
-    }
-    @IBAction func Capture(sender: AnyObject) {
-    }
-    @IBAction func ManualEntry(sender: AnyObject) {
-    }
+
     
 }
