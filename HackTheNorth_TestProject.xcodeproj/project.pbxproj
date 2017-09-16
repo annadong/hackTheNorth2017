@@ -22,10 +22,12 @@
 		FA41EA341F6D9E69002FCB08 /* FoodTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA41EA331F6D9E69002FCB08 /* FoodTrackerViewController.swift */; };
 		FA41EA361F6D9EC3002FCB08 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA41EA351F6D9EC3002FCB08 /* DataViewController.swift */; };
 		FA41EA381F6D9F0D002FCB08 /* PrescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA41EA371F6D9F0D002FCB08 /* PrescriptionViewController.swift */; };
+		FA41EA3A1F6DA595002FCB08 /* 34202.png in Resources */ = {isa = PBXBuildFile; fileRef = FA41EA391F6DA595002FCB08 /* 34202.png */; };
+		FA41EA3C1F6DA634002FCB08 /* download.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FA41EA3B1F6DA634002FCB08 /* download.jpeg */; };
+		FA41EA3E1F6DA6B1002FCB08 /* e1e42e09f780854a20dba474edb03896.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA41EA3D1F6DA6B1002FCB08 /* e1e42e09f780854a20dba474edb03896.jpg */; };
+		FA41EA421F6DA7ED002FCB08 /* magnifying_glass.png in Resources */ = {isa = PBXBuildFile; fileRef = FA41EA411F6DA7ED002FCB08 /* magnifying_glass.png */; };
+		FA41EA461F6DBC16002FCB08 /* noun_1237017_cc.png in Resources */ = {isa = PBXBuildFile; fileRef = FA41EA451F6DBC16002FCB08 /* noun_1237017_cc.png */; };
 		FA41EA521F6DC164002FCB08 /* pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = FA41EA511F6DC164002FCB08 /* pencil.png */; };
-		FA41EA561F6DC240002FCB08 /* e1e42e09f780854a20dba474edb03896.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA41EA531F6DC23F002FCB08 /* e1e42e09f780854a20dba474edb03896.jpg */; };
-		FA41EA571F6DC240002FCB08 /* magnifying_glass.png in Resources */ = {isa = PBXBuildFile; fileRef = FA41EA541F6DC23F002FCB08 /* magnifying_glass.png */; };
-		FA41EA581F6DC240002FCB08 /* noun_1237017_cc.png in Resources */ = {isa = PBXBuildFile; fileRef = FA41EA551F6DC240002FCB08 /* noun_1237017_cc.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,10 +102,12 @@
 		FA41EA331F6D9E69002FCB08 /* FoodTrackerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTrackerViewController.swift; sourceTree = "<group>"; };
 		FA41EA351F6D9EC3002FCB08 /* DataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 		FA41EA371F6D9F0D002FCB08 /* PrescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrescriptionViewController.swift; sourceTree = "<group>"; };
+		FA41EA391F6DA595002FCB08 /* 34202.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 34202.png; path = ../../Desktop/34202.png; sourceTree = "<group>"; };
+		FA41EA3B1F6DA634002FCB08 /* download.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = download.jpeg; path = ../../Desktop/download.jpeg; sourceTree = "<group>"; };
+		FA41EA3D1F6DA6B1002FCB08 /* e1e42e09f780854a20dba474edb03896.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = e1e42e09f780854a20dba474edb03896.jpg; path = ../../Desktop/e1e42e09f780854a20dba474edb03896.jpg; sourceTree = "<group>"; };
+		FA41EA411F6DA7ED002FCB08 /* magnifying_glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = magnifying_glass.png; path = ../Desktop/magnifying_glass.png; sourceTree = "<group>"; };
+		FA41EA451F6DBC16002FCB08 /* noun_1237017_cc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = noun_1237017_cc.png; path = ../Downloads/noun_1237017_cc.png; sourceTree = "<group>"; };
 		FA41EA511F6DC164002FCB08 /* pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pencil.png; sourceTree = "<group>"; };
-		FA41EA531F6DC23F002FCB08 /* e1e42e09f780854a20dba474edb03896.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = e1e42e09f780854a20dba474edb03896.jpg; sourceTree = "<group>"; };
-		FA41EA541F6DC23F002FCB08 /* magnifying_glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magnifying_glass.png; sourceTree = "<group>"; };
-		FA41EA551F6DC240002FCB08 /* noun_1237017_cc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noun_1237017_cc.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,10 +157,9 @@
 		ACD7106B1F6CE491005179EB = {
 			isa = PBXGroup;
 			children = (
-				FA41EA531F6DC23F002FCB08 /* e1e42e09f780854a20dba474edb03896.jpg */,
-				FA41EA541F6DC23F002FCB08 /* magnifying_glass.png */,
-				FA41EA551F6DC240002FCB08 /* noun_1237017_cc.png */,
+				FA41EA451F6DBC16002FCB08 /* noun_1237017_cc.png */,
 				FA41EA511F6DC164002FCB08 /* pencil.png */,
+				FA41EA411F6DA7ED002FCB08 /* magnifying_glass.png */,
 				ACD710761F6CE491005179EB /* HackTheNorth_TestProject */,
 				ACD710751F6CE491005179EB /* Products */,
 				ACCBA3021F6DD083007F3E63 /* SQLite.xcodeproj */,
@@ -190,6 +193,9 @@
 				FA41EA351F6D9EC3002FCB08 /* DataViewController.swift */,
 				FA41EA371F6D9F0D002FCB08 /* PrescriptionViewController.swift */,
 				ACCBA3001F6DCD0F007F3E63 /* accountDB.swift */,
+				FA41EA3D1F6DA6B1002FCB08 /* e1e42e09f780854a20dba474edb03896.jpg */,
+				FA41EA3B1F6DA634002FCB08 /* download.jpeg */,
+				FA41EA391F6DA595002FCB08 /* 34202.png */,
 			);
 			path = HackTheNorth_TestProject;
 			sourceTree = "<group>";
@@ -316,11 +322,13 @@
 			files = (
 				ACD710821F6CE491005179EB /* LaunchScreen.storyboard in Resources */,
 				ACD7107F1F6CE491005179EB /* Assets.xcassets in Resources */,
+				FA41EA3E1F6DA6B1002FCB08 /* e1e42e09f780854a20dba474edb03896.jpg in Resources */,
+				FA41EA3C1F6DA634002FCB08 /* download.jpeg in Resources */,
 				ACD7107D1F6CE491005179EB /* Main.storyboard in Resources */,
-				FA41EA561F6DC240002FCB08 /* e1e42e09f780854a20dba474edb03896.jpg in Resources */,
+				FA41EA3A1F6DA595002FCB08 /* 34202.png in Resources */,
 				FA41EA521F6DC164002FCB08 /* pencil.png in Resources */,
-				FA41EA571F6DC240002FCB08 /* magnifying_glass.png in Resources */,
-				FA41EA581F6DC240002FCB08 /* noun_1237017_cc.png in Resources */,
+				FA41EA461F6DBC16002FCB08 /* noun_1237017_cc.png in Resources */,
+				FA41EA421F6DA7ED002FCB08 /* magnifying_glass.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
