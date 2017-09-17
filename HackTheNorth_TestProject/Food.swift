@@ -29,6 +29,7 @@ class Food {
         //make a new instance
         var food = Food(foodName:foodName , calories:calories, servingSize:servingSize)
         
+        
         //then lets populate the table pulling the food stuff
     }
     

@@ -15,12 +15,16 @@ class Patient {
     var lastname: String
     var username: String
     var healthID: String
+    var foodList: [Food]()
+    var prescriptionList: [Prescription]()
     
     init ( firstname: String, lastname: String, username: String, healthID: String){
         self.firstname = firstname
         self.lastname = lastname
         self.username = username
         self.healthID = healthID
+        
+        self.foodList =
         
     }
     
@@ -35,8 +39,21 @@ class Patient {
     //update patient
     
     //Remove patient
-    func removePatient(username: string) {
+
+    
+    //populate food list
+    func addFoodItem( foodName: string, calories: int64, servingSize: Int){
+       
+        var food = Food(foodName: foodName, calories: calories, servingSize: servingSize)
+        foodlist.append(food);
+        
+    }
+    
+    func addPrescriptionItem(){
         
         
     }
+    
+    //populate prescription list
+    
 }
