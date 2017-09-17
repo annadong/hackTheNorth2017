@@ -10,6 +10,10 @@
 		ACCBA2FF1F6DC7E8007F3E63 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCBA2FE1F6DC7E8007F3E63 /* CreateAccountViewController.swift */; };
 		ACCBA3011F6DCD0F007F3E63 /* accountDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCBA3001F6DCD0F007F3E63 /* accountDB.swift */; };
 		ACCBA31B1F6DD10C007F3E63 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACCBA30D1F6DD083007F3E63 /* SQLite.framework */; };
+		ACCBA36E1F6DFC88007F3E63 /* prescription.png in Resources */ = {isa = PBXBuildFile; fileRef = ACCBA36A1F6DFC88007F3E63 /* prescription.png */; };
+		ACCBA3701F6DFC88007F3E63 /* data.png in Resources */ = {isa = PBXBuildFile; fileRef = ACCBA36C1F6DFC88007F3E63 /* data.png */; };
+		ACCBA3711F6DFC88007F3E63 /* food_tracker.png in Resources */ = {isa = PBXBuildFile; fileRef = ACCBA36D1F6DFC88007F3E63 /* food_tracker.png */; };
+		ACCBA37A1F6DFEAC007F3E63 /* symptonicon.png in Resources */ = {isa = PBXBuildFile; fileRef = ACCBA3791F6DFEAC007F3E63 /* symptonicon.png */; };
 		ACD710781F6CE491005179EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD710771F6CE491005179EB /* AppDelegate.swift */; };
 		ACD7107A1F6CE491005179EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD710791F6CE491005179EB /* ViewController.swift */; };
 		ACD7107D1F6CE491005179EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACD7107B1F6CE491005179EB /* Main.storyboard */; };
@@ -89,6 +93,10 @@
 		ACCBA2FE1F6DC7E8007F3E63 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		ACCBA3001F6DCD0F007F3E63 /* accountDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = accountDB.swift; sourceTree = "<group>"; };
 		ACCBA3021F6DD083007F3E63 /* SQLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQLite.xcodeproj; path = SQLite.swift/SQLite.xcodeproj; sourceTree = "<group>"; };
+		ACCBA36A1F6DFC88007F3E63 /* prescription.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prescription.png; sourceTree = "<group>"; };
+		ACCBA36C1F6DFC88007F3E63 /* data.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = data.png; sourceTree = "<group>"; };
+		ACCBA36D1F6DFC88007F3E63 /* food_tracker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food_tracker.png; sourceTree = "<group>"; };
+		ACCBA3791F6DFEAC007F3E63 /* symptonicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = symptonicon.png; sourceTree = "<group>"; };
 		ACD710741F6CE491005179EB /* HackTheNorth_TestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackTheNorth_TestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACD710771F6CE491005179EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACD710791F6CE491005179EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -157,6 +165,10 @@
 		ACD7106B1F6CE491005179EB = {
 			isa = PBXGroup;
 			children = (
+				ACCBA3791F6DFEAC007F3E63 /* symptonicon.png */,
+				ACCBA36A1F6DFC88007F3E63 /* prescription.png */,
+				ACCBA36C1F6DFC88007F3E63 /* data.png */,
+				ACCBA36D1F6DFC88007F3E63 /* food_tracker.png */,
 				FA41EA451F6DBC16002FCB08 /* noun_1237017_cc.png */,
 				FA41EA511F6DC164002FCB08 /* pencil.png */,
 				FA41EA411F6DA7ED002FCB08 /* magnifying_glass.png */,
@@ -325,10 +337,14 @@
 				FA41EA3E1F6DA6B1002FCB08 /* e1e42e09f780854a20dba474edb03896.jpg in Resources */,
 				FA41EA3C1F6DA634002FCB08 /* download.jpeg in Resources */,
 				ACD7107D1F6CE491005179EB /* Main.storyboard in Resources */,
+				ACCBA3701F6DFC88007F3E63 /* data.png in Resources */,
+				ACCBA3711F6DFC88007F3E63 /* food_tracker.png in Resources */,
 				FA41EA3A1F6DA595002FCB08 /* 34202.png in Resources */,
+				ACCBA37A1F6DFEAC007F3E63 /* symptonicon.png in Resources */,
 				FA41EA521F6DC164002FCB08 /* pencil.png in Resources */,
 				FA41EA461F6DBC16002FCB08 /* noun_1237017_cc.png in Resources */,
 				FA41EA421F6DA7ED002FCB08 /* magnifying_glass.png in Resources */,
+				ACCBA36E1F6DFC88007F3E63 /* prescription.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
