@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F2109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--LOGIN-->
@@ -285,24 +285,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fI9-nN-ECy">
-                                <rect key="frame" x="65" y="232" width="128" height="118"/>
-                                <color key="backgroundColor" red="0.90014671034534566" green="1" blue="0.93646484305189481" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="Food Tracking">
-                                    <color key="titleColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
-                                </state>
-                                <connections>
-                                    <action selector="FoodTracking:" destination="DqK-yd-fcu" eventType="touchUpInside" id="xsr-bw-URF"/>
-                                    <segue destination="mwe-p0-cwA" kind="push" id="Nex-v7-IoZ"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sMc-k8-19f">
-                                <rect key="frame" x="219" y="232" width="134" height="118"/>
-                                <color key="backgroundColor" red="0.90014671034534566" green="1" blue="0.93646484305189481" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="Symptoms">
-                                    <color key="titleColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                <rect key="frame" x="219" y="219.5" width="134" height="130.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="Symptoms" backgroundImage="symptonicon.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="Symptoms:" destination="DqK-yd-fcu" eventType="touchUpInside" id="mE2-Z5-lIe"/>
@@ -322,11 +309,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DRC-jf-glW">
-                                <rect key="frame" x="65" y="377" width="128" height="119"/>
-                                <color key="backgroundColor" red="0.90014671034534566" green="1" blue="0.93646484305189481" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <state key="normal" title="Prescriptions">
-                                    <color key="titleColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                <rect key="frame" x="62" y="377" width="131" height="131"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="Prescriptions" backgroundImage="prescription.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="Prescriptions:" destination="DqK-yd-fcu" eventType="touchUpInside" id="mdb-Kw-HAv"/>
@@ -334,15 +320,25 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fne-Qs-BM1">
-                                <rect key="frame" x="219" y="377" width="134" height="119"/>
-                                <color key="backgroundColor" red="0.90014671034534566" green="1" blue="0.93646484305189481" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="Data">
-                                    <color key="titleColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                <rect key="frame" x="219" y="377" width="134" height="132"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="Data" backgroundImage="data.png">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="Data:" destination="DqK-yd-fcu" eventType="touchUpInside" id="HDA-eJ-cEg"/>
                                     <segue destination="aHT-nR-OEU" kind="push" id="F79-6t-cqq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fI9-nN-ECy">
+                                <rect key="frame" x="58" y="214.5" width="140" height="142.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="Food Tracking" backgroundImage="food_tracker.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="FoodTracking:" destination="DqK-yd-fcu" eventType="touchUpInside" id="xsr-bw-URF"/>
+                                    <segue destination="mwe-p0-cwA" kind="push" id="Nex-v7-IoZ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -636,10 +632,14 @@
         </scene>
     </scenes>
     <resources>
+        <image name="data.png" width="512" height="512"/>
         <image name="e1e42e09f780854a20dba474edb03896.jpg" width="800" height="600"/>
+        <image name="food_tracker.png" width="1020" height="1020"/>
         <image name="magnifying_glass.png" width="512" height="512"/>
         <image name="noun_1237017_cc.png" width="700" height="700"/>
         <image name="pencil.png" width="512" height="512"/>
+        <image name="prescription.png" width="512" height="512"/>
+        <image name="symptonicon.png" width="718" height="720"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="dAD-tJ-W7C"/>
