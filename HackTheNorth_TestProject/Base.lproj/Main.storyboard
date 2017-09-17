@@ -52,6 +52,9 @@
                                 <state key="normal" title="Login">
                                     <color key="titleColor" red="0.30327634162303663" green="0.30327634162303663" blue="0.30327634162303663" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="DqK-yd-fcu" kind="push" id="dAD-tJ-W7C"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -63,7 +66,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1049" y="365"/>
+            <point key="canvasLocation" x="159" y="101"/>
         </scene>
         <!--Create Account View Controller-->
         <scene sceneID="749-uE-Of2">
@@ -129,6 +132,7 @@
                                 </state>
                                 <connections>
                                     <action selector="createUserButtonClick:" destination="VFP-jp-Tzk" eventType="touchUpInside" id="vNh-7P-RJP"/>
+                                    <segue destination="DqK-yd-fcu" kind="push" id="6C0-Fa-W9G"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -144,7 +148,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lvj-Dh-NYF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1557" y="662"/>
+            <point key="canvasLocation" x="905" y="126"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="cUl-wN-4Ad">
@@ -162,7 +166,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LdK-k4-TUM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="237" y="365"/>
+            <point key="canvasLocation" x="-638" y="65"/>
         </scene>
         <!--Food Tracker View Controller-->
         <scene sceneID="A3R-US-W72">
@@ -177,7 +181,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NfU-sy-V4J">
-                                <rect key="frame" x="89" y="199" width="235" height="172"/>
+                                <rect key="frame" x="89" y="251" width="235" height="172"/>
                                 <color key="backgroundColor" red="0.86548955865136712" green="0.9334530818020953" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
                                 <state key="normal" title="Capture" backgroundImage="e1e42e09f780854a20dba474edb03896.jpg"/>
@@ -186,14 +190,14 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Bl-7J-UO7">
-                                <rect key="frame" x="153" y="107" width="106" height="110"/>
+                                <rect key="frame" x="153" y="109" width="106" height="110"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                 <state key="normal" title="Search" backgroundImage="magnifying_glass.png">
                                     <color key="titleColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r6u-xV-Ro1">
-                                <rect key="frame" x="150" y="355" width="114" height="101"/>
+                                <rect key="frame" x="150" y="456" width="114" height="101"/>
                                 <color key="backgroundColor" red="0.86548955865136712" green="0.9334530818020953" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                 <state key="normal" title="Manual Entry" backgroundImage="pencil.png">
@@ -211,7 +215,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5w1-jm-BNv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="280" y="2211"/>
+            <point key="canvasLocation" x="-214" y="2533"/>
         </scene>
         <!--Main View Controller-->
         <scene sceneID="PT6-Tw-XWH">
@@ -289,12 +293,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <toolbarItems/>
+                    <navigationItem key="navigationItem" id="m6p-EU-Ikb"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kv9-E7-EWQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="257" y="1116"/>
+            <point key="canvasLocation" x="209" y="1404"/>
         </scene>
         <!--Symptoms View Controller-->
         <scene sceneID="M4a-Jc-Vjj">
@@ -340,7 +345,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V7k-Os-jk2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="926" y="910"/>
+            <point key="canvasLocation" x="1088" y="1306"/>
         </scene>
         <!--Data View Controller-->
         <scene sceneID="9CV-BI-3Cj">
@@ -370,7 +375,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B4y-sv-qCS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="898" y="1768"/>
+            <point key="canvasLocation" x="658" y="2522"/>
         </scene>
         <!--Prescription View Controller-->
         <scene sceneID="8Uf-9n-AvI">
@@ -410,7 +415,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H1H-gv-e5N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-265" y="1363"/>
+            <point key="canvasLocation" x="-673" y="1459"/>
         </scene>
     </scenes>
     <resources>
@@ -419,4 +424,7 @@
         <image name="noun_1237017_cc.png" width="700" height="700"/>
         <image name="pencil.png" width="512" height="512"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="6C0-Fa-W9G"/>
+    </inferredMetricsTieBreakers>
 </document>
