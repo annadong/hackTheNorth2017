@@ -32,6 +32,8 @@
 		FA41EA421F6DA7ED002FCB08 /* magnifying_glass.png in Resources */ = {isa = PBXBuildFile; fileRef = FA41EA411F6DA7ED002FCB08 /* magnifying_glass.png */; };
 		FA41EA461F6DBC16002FCB08 /* noun_1237017_cc.png in Resources */ = {isa = PBXBuildFile; fileRef = FA41EA451F6DBC16002FCB08 /* noun_1237017_cc.png */; };
 		FA41EA521F6DC164002FCB08 /* pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = FA41EA511F6DC164002FCB08 /* pencil.png */; };
+		FA41EA5C1F6E04C7002FCB08 /* foodManualEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA41EA5B1F6E04C7002FCB08 /* foodManualEntry.swift */; };
+		FA41EA5E1F6E0A30002FCB08 /* prescriptionManualEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA41EA5D1F6E0A30002FCB08 /* prescriptionManualEntry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,6 +118,8 @@
 		FA41EA411F6DA7ED002FCB08 /* magnifying_glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = magnifying_glass.png; path = ../Desktop/magnifying_glass.png; sourceTree = "<group>"; };
 		FA41EA451F6DBC16002FCB08 /* noun_1237017_cc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = noun_1237017_cc.png; path = ../Downloads/noun_1237017_cc.png; sourceTree = "<group>"; };
 		FA41EA511F6DC164002FCB08 /* pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pencil.png; sourceTree = "<group>"; };
+		FA41EA5B1F6E04C7002FCB08 /* foodManualEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = foodManualEntry.swift; sourceTree = "<group>"; };
+		FA41EA5D1F6E0A30002FCB08 /* prescriptionManualEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = prescriptionManualEntry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +212,8 @@
 				FA41EA3D1F6DA6B1002FCB08 /* e1e42e09f780854a20dba474edb03896.jpg */,
 				FA41EA3B1F6DA634002FCB08 /* download.jpeg */,
 				FA41EA391F6DA595002FCB08 /* 34202.png */,
+				FA41EA5B1F6E04C7002FCB08 /* foodManualEntry.swift */,
+				FA41EA5D1F6E0A30002FCB08 /* prescriptionManualEntry.swift */,
 			);
 			path = HackTheNorth_TestProject;
 			sourceTree = "<group>";
@@ -411,6 +417,7 @@
 			files = (
 				FA41EA381F6D9F0D002FCB08 /* PrescriptionViewController.swift in Sources */,
 				ACCBA3011F6DCD0F007F3E63 /* accountDB.swift in Sources */,
+				FA41EA5E1F6E0A30002FCB08 /* prescriptionManualEntry.swift in Sources */,
 				ACD7108C1F6D7BFA005179EB /* Contact.swift in Sources */,
 				FA41EA361F6D9EC3002FCB08 /* DataViewController.swift in Sources */,
 				ACD7107A1F6CE491005179EB /* ViewController.swift in Sources */,
@@ -418,6 +425,7 @@
 				FA41EA321F6D9D96002FCB08 /* SymptomsViewController.swift in Sources */,
 				ACCBA2FF1F6DC7E8007F3E63 /* CreateAccountViewController.swift in Sources */,
 				FA41EA301F6D83A3002FCB08 /* MainViewController.swift in Sources */,
+				FA41EA5C1F6E04C7002FCB08 /* foodManualEntry.swift in Sources */,
 				FA41EA341F6D9E69002FCB08 /* FoodTrackerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
