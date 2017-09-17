@@ -34,6 +34,8 @@
 		FA41EA521F6DC164002FCB08 /* pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = FA41EA511F6DC164002FCB08 /* pencil.png */; };
 		FA41EA5C1F6E04C7002FCB08 /* foodManualEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA41EA5B1F6E04C7002FCB08 /* foodManualEntry.swift */; };
 		FA41EA5E1F6E0A30002FCB08 /* prescriptionManualEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA41EA5D1F6E0A30002FCB08 /* prescriptionManualEntry.swift */; };
+		FA41EA651F6E2252002FCB08 /* patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA41EA641F6E2252002FCB08 /* patient.swift */; };
+		FA41EA671F6E2415002FCB08 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA41EA661F6E2415002FCB08 /* Food.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +122,8 @@
 		FA41EA511F6DC164002FCB08 /* pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pencil.png; sourceTree = "<group>"; };
 		FA41EA5B1F6E04C7002FCB08 /* foodManualEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = foodManualEntry.swift; sourceTree = "<group>"; };
 		FA41EA5D1F6E0A30002FCB08 /* prescriptionManualEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = prescriptionManualEntry.swift; sourceTree = "<group>"; };
+		FA41EA641F6E2252002FCB08 /* patient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = patient.swift; sourceTree = "<group>"; };
+		FA41EA661F6E2415002FCB08 /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,6 +218,8 @@
 				FA41EA391F6DA595002FCB08 /* 34202.png */,
 				FA41EA5B1F6E04C7002FCB08 /* foodManualEntry.swift */,
 				FA41EA5D1F6E0A30002FCB08 /* prescriptionManualEntry.swift */,
+				FA41EA641F6E2252002FCB08 /* patient.swift */,
+				FA41EA661F6E2415002FCB08 /* Food.swift */,
 			);
 			path = HackTheNorth_TestProject;
 			sourceTree = "<group>";
@@ -421,6 +427,8 @@
 				ACD7108C1F6D7BFA005179EB /* Contact.swift in Sources */,
 				FA41EA361F6D9EC3002FCB08 /* DataViewController.swift in Sources */,
 				ACD7107A1F6CE491005179EB /* ViewController.swift in Sources */,
+				FA41EA651F6E2252002FCB08 /* patient.swift in Sources */,
+				FA41EA671F6E2415002FCB08 /* Food.swift in Sources */,
 				ACD710781F6CE491005179EB /* AppDelegate.swift in Sources */,
 				FA41EA321F6D9D96002FCB08 /* SymptomsViewController.swift in Sources */,
 				ACCBA2FF1F6DC7E8007F3E63 /* CreateAccountViewController.swift in Sources */,
